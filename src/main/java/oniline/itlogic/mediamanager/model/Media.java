@@ -27,7 +27,7 @@ public class Media {
     private String veroeffentlichungsjahr;
     private String URLTrailer;
     private String imgSrc;
-    @Column(columnDefinition = "LONGTEXT")
+    @Column(columnDefinition = "TEXT")
     private String beschreibung;
     @Column(nullable = false, updatable = false)
     private String mediaCode;

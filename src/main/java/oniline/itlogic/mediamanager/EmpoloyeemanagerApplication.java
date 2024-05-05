@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import oniline.itlogic.mediamanager.model.Movie;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.cors.CorsConfiguration;
@@ -17,6 +18,7 @@ import java.net.URL;
 import java.util.Arrays;
 
 @SpringBootApplication
+@EntityScan(basePackages = {"oniline.itlogic.mediamanager.model"})
 public class EmpoloyeemanagerApplication {
 
 	public static void main(String[] args) {

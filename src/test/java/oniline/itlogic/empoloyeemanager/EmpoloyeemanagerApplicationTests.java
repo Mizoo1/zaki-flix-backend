@@ -1,14 +1,12 @@
 package oniline.itlogic.empoloyeemanager;
 
-import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.junit.jupiter.api.Test;
 
 @SpringBootTest
-class EmpoloyeemanagerApplicationTests {
+public class EmpoloyeemanagerApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
-
-
+    @Test
+    void contextLoads() {
+    }
 }

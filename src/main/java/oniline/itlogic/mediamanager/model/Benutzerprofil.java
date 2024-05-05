@@ -20,14 +20,14 @@ import java.util.Set;
 @Entity
 public class Benutzerprofil implements UserDetails {
     @SequenceGenerator(
-            name = "Profile_sequence",
-            sequenceName = "Eco_sequence",
-            allocationSize = 1
+        name = "profile_sequence",
+        sequenceName = "profile_sequence",
+        allocationSize = 1
     )
     @Id
     @GeneratedValue(
-            strategy = GenerationType.SEQUENCE,
-            generator = "Profile_sequence_sequence"
+        strategy = GenerationType.SEQUENCE,
+        generator = "profile_sequence" 
     )
     private Long id;
     private String benutzername;
